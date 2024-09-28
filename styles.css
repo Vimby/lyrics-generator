@@ -1,3 +1,44 @@
 body {
-    background-color: aqua;
+    background-color: #C1CFA1;
+    font-family: "Montserrat", sans-serif;
 }
+.container {
+    width: 600px;
+    margin: 120px auto;
+}
+
+
+.search-section {
+    background-color: #A5B68D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#search-input{
+    border-radius: 50px;
+    border: 1px solid #A5B68D;
+    padding: 16px 24px;
+    font-size: 16px;
+    width: 60%;
+}
+
+.search-result {
+background-color: #A5B68D;
+border-radius: 10px;
+padding: 10px;
+margin: 30px 0;
+}
+
+
+
+.btn {
+    border-radius: 50px;
+    border: 1px solid #A5B68D;
+    width: 150px;
+    padding: 16px;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
