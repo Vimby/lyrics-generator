@@ -1,5 +1,5 @@
 function generateResponse(response){
-    console.log(response.data);
+  
     let lyricsElement = document.querySelector(".search-result");
     lyricsElement.innerHTML = response.data.answer;
    
@@ -16,8 +16,9 @@ let context =
  let url = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
  axios.get(url).then(generateResponse);
-
- console.log("generating response.........")
+let lyricsElement = document.querySelector(".search-result");
+lyricsElement.classList.remove("hidden");
+lyricsElement.innerHTML= `<span> Generating lyrics to your song titled ${keyword.value}</span>`
 
 }
 

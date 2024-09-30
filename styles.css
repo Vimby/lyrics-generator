@@ -12,6 +12,7 @@ body {
     background-color: #A5B68D;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -31,7 +32,9 @@ margin: 30px 0;
 line-height: 1.5;
 }
 
-
+.search-result p {
+    font-style: italic;
+}
 
 .btn {
     border-radius: 50px;
@@ -43,3 +46,25 @@ line-height: 1.5;
 
 }
 
+footer {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+span {
+   animation: blink 1.5s infinite;
+   animation-fill-mode: both;
+   font-style: italic;
+   }
+
+@keyframes blink {
+   0% { opacity: 0 }
+   50% { opacity: 1 }
+   100% { opacity: 0 }
+   }
